@@ -1,0 +1,21 @@
+Para verificar se está rodando o php:
+
+Abra o "PowerShell"
+-> Vá na pasta do arquivo;
+  -> Digite "php -a";
+
+if (resposta == 1){
+ Deu certo
+} else { Abra o "Windows";
+-> "variáveis do ambiente"
+  -> "Novo"
+    -> Nome: Path
+       Endereço: c:\xampp\php;
+
+Depois disso entre na pasta
+-> Digite: "php -S localhost:8080 -t public "
+
+Para verificar se deu certo, abra o navegador
+-> Digite: "localhost:8080/api(local da pasta)/questoes(nome do arquivo)".
+
+Para fazer as ações de serviço de php é necessário apps externos (insomnia ou postman), instale-o e comece a programar.
